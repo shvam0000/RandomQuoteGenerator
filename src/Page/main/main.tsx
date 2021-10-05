@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Get from '../get/get';
 import Post from '../post/post';
 import styles from './main.module.css';

@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import styles from './get.module.css';
 
 const Get = () => {
-  const [msg, setMsg] = useState<string>(null);
-  const [data, setData] = useState<string>(null);
+  const [msg, setMsg] = useState<string | any>(null);
+  const [data, setData] = useState<string | any>(null);
   const getHandler = () => {
     setData(null);
     setMsg(null);
